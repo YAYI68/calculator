@@ -10,7 +10,7 @@ const Theme = () => {
     
   return (
     <div className='w-full px-[8rem] py-[2rem] absolute top-10 left-10'>
-        <select name="" id="" onChange={(e)=>handleChange(e.target.value)} className="border p-2 rounded-sm">
+        <select name="" id="" onChange={(e)=>handleChange(e.target.value)} className="border-2 p-2 rounded-sm ">
             <option value={'first'} >First Theme </option>
             <option value={'second'} >Second Theme</option>
         </select>

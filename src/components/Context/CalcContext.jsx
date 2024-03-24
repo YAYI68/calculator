@@ -6,7 +6,7 @@ const CalcProvider = ({ children }) => {
   const [expression, setExpression] = useState("");
   const [isNegative, setIsNegative] = useState(false); // State to track negation
   const [operatorClicked, setOperatorClicked] = useState(false);
-  const [theme,setTheme] = useState("second")
+  const [theme,setTheme] = useState("first")
    // State to track if an operator has been clicked
 
   const handleClickBtn = (value) => {
